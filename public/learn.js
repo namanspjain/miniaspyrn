@@ -28,17 +28,17 @@ function setup() {
   poseNet.on('pose', gotPoses);
 
   imgArray[0] = new Image();
-  imgArray[0].src = 'imgs/mountain.svg';
+  imgArray[0].src = '/public/imgs/mountain.svg';
   imgArray[1] = new Image();
-  imgArray[1].src = 'imgs/tree.svg';
+  imgArray[1].src = '/public/imgs/tree.svg';
   imgArray[2] = new Image();
-  imgArray[2].src = 'imgs/dog.svg';
+  imgArray[2].src = '/public/imgs/dog.svg';
   imgArray[3] = new Image();
-  imgArray[3].src = 'imgs/warrior1.svg';
+  imgArray[3].src = '/public/imgs/warrior1.svg';
   imgArray[4] = new Image();
-  imgArray[4].src = 'imgs/warrior2.svg';
+  imgArray[4].src = '/public/imgs/warrior2.svg';
   imgArray[5] = new Image();
-  imgArray[5].src = 'imgs/chair.svg';
+  imgArray[5].src = '/public/imgs/chair.svg';
   
   poseCounter = 0;
   targetLabel = 1;
