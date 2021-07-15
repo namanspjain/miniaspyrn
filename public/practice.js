@@ -43,9 +43,9 @@ function setup() {
   
   yogi = ml5.neuralNetwork(options);
   const modelInfo = {
-    model: 'modelv2/model2.json',
-    metadata: 'modelv2/model_meta2.json',
-    weights: 'modelv2/model.weights2.bin',
+    model: '/public/modelv2/model2.json',
+    metadata: '/public/modelv2/model_meta2.json',
+    weights: '/public/modelv2/model.weights2.bin',
   };
   yogi.load(modelInfo, yogiLoaded);
 }
